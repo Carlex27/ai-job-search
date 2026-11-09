@@ -14,30 +14,33 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ## Ready-Made STAR Examples
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+### 1. Clasificación arancelaria de acero
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+- **Situación:** La clasificación depende de la composición química, el producto y el proceso de manufactura.
+- **Tarea:** Implementar búsqueda y sugerencias de fracciones arancelarias y NICO.
+- **Acción:** Construyó motores de búsqueda y clasificación como parte de una solución full-stack.
+- **Resultado:** El sistema incorpora búsqueda, clasificación y sugerencias. Validar métricas de precisión o uso antes de citar cifras.
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. Automatización de certificados de molino
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+- **Situación:** El flujo requería capturar datos de certificados en PDF y manejar formatos desconocidos.
+- **Tarea:** Automatizar la extracción y clasificación de certificados.
+- **Acción:** Implementó carga directa, integró modelos locales en Ollama y desarrolló un historial con exportación a Excel.
+- **Resultado:** El flujo reduce la captura manual. El CV no cuantifica el ahorro de tiempo.
 
-<!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
+### 3. ZIQUA, monitoreo y mantenimiento preventivo
+
+- **Situación:** El proyecto requería monitorear pH, temperatura y turbidez de forma continua.
+- **Tarea:** Integrar sensores, backend y aplicación móvil.
+- **Acción:** Diseñó la arquitectura con ESP32, sincronizó datos con Firebase y desarrolló un módulo predictivo y alertas en la aplicación Flutter.
+- **Resultado:** El CV reporta una reducción de hasta 30% en gasto de reactivos. Confirmar periodo, línea base y método de medición antes de usar la cifra en una entrevista.
+
+### 4. SALL-E, liderazgo técnico
+
+- **Situación:** El proyecto de movilidad eléctrica requería integrar telemetría, aplicación móvil y acceso al vehículo.
+- **Tarea:** Liderar el desarrollo técnico y la estrategia comercial.
+- **Acción:** Desarrolló la aplicación Flutter con Firebase, GPS y diagnóstico de carga, e implementó autenticación vehicular con NFC.
+- **Resultado:** Primer lugar regional y pase a la final nacional de InnovaTecNM 2025.
 
 ## Common Tough Questions
 

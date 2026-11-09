@@ -1,10 +1,10 @@
-# Job Application Assistant for [YOUR_NAME]
+# Job Application Assistant for Carlos Jadir Ocampo de la Torre
 
 <!-- SETUP: This file is populated by running /setup -->
 <!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Carlos Jadir Ocampo de la Torre, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,76 +16,44 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+
+- **Name:** Carlos Jadir Ocampo de la Torre
+- **Location:** Zihuatanejo, Guerrero, México
 - **Languages:**
+
   | Language | Level |
   |----------|-------|
-  | [LANGUAGE] | [LEVEL] |
-  <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
-  working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
-  undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
-  lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
-  04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+  | Español | Nativo |
+  | Inglés | B2 conversacional y técnico |
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **CV language:** Español (provisional, según el CV de origen).
+- **Status:** Estudiante. Situación laboral actual por confirmar.
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+
+- **Ingeniería en Sistemas Computacionales**, en curso (Ago 2022 - Jun 2027, previsto), Instituto Tecnológico Nacional de México, Campus Costa Grande.
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+
+- **Clasificación arancelaria de acero (Oct 2026).** Desarrollo full-stack de búsqueda y clasificación de fracciones y NICO, extracción de datos de certificados PDF e integración de modelos locales en Ollama.
+- **ZIQUA (Ene 2026 - Jun 2026).** Liderazgo full-stack e IoT en monitoreo de agua con ESP32, Firebase y Flutter.
+- **SALL-E (Feb 2025 - Dic 2025).** Liderazgo técnico y desarrollo móvil para movilidad eléctrica con Flutter, Firebase, GPS y NFC.
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
 
-### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
-
-### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- **Primary:** Python, FastAPI, PostgreSQL, Java, Spring Boot, Dart y Flutter.
+- **Secondary:** TypeScript, React, Next.js, Node.js, Express, Firebase, WebSockets, ESP32 y NFC.
+- **Domain:** desarrollo full-stack y móvil, automatización de documentos, IoT y telemetría.
+- **Software:** Git, GitHub, Docker, Postman, Linux, Bash y Ollama.
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
 
-### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- Primer lugar regional y finalista nacional en InnovaTecNM 2025. Tercer lugar regional en Hackatec 2026.
 
-### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+### Behavioral Profile and Career Preferences
 
-### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
-
-### Deal-breakers
-<!-- Hard constraints on job search. Language requirements are handled separately and
-automatically from your Languages table above - don't duplicate them here. -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Experiencia documentada en liderazgo técnico y desarrollo de soluciones de extremo a extremo. Ver el perfil estructurado para detalles de los proyectos.
+- Empleo remoto de tiempo completo desde México. Sin restricciones de horario declaradas. Expectativa mínima de 25,000 MXN, con periodo y base bruta o neta por confirmar.
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

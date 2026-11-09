@@ -8,66 +8,67 @@ framework_version: 1.1.1
 <!-- After running /setup, all sections will be filled with your actual information -->
 
 ## Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_ADDRESS]
-- **Phone:** [YOUR_PHONE]
-- **Email:** [YOUR_EMAIL]
-- **LinkedIn:** [YOUR_LINKEDIN_URL]
-- **GitHub:** [YOUR_GITHUB_URL]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **Constraints:** [YOUR_COMMUTE_OR_LOCATION_CONSTRAINTS]
+- **Name:** Carlos Jadir Ocampo de la Torre
+- **Location:** Zihuatanejo, Guerrero, México
+- **Phone:** +52 7443260318
+- **Email:** cjocampo27@outlook.com
+- **LinkedIn:** https://www.linkedin.com/in/carlos-ocampo-510918253
+- **GitHub:** https://github.com/Carlex27
+- **Status:** Estudiante de Ingeniería en Sistemas Computacionales. Situación laboral actual por confirmar.
+
+- **Preferences:** Empleo remoto de tiempo completo desde México. Sin restricciones de horario declaradas. Expectativa mínima de 25,000 MXN, con periodo y base bruta o neta por confirmar.
 
 ### Languages
-<!-- Every language you can work in professionally, with your honest level. Used by the
-Language Gate in 04-job-evaluation.md and by job-scraper/search-queries.md's query-language
-generation. Omit any language you don't actually work in - an undeclared language is treated as
-a hard no, not a gap to smooth over. -->
 
 | Language | Level | Notes |
 |----------|-------|-------|
-| [LANGUAGE] | [LEVEL, e.g. "Native" / "C2" / "B1/B2 (conversational)"] | [optional] |
+| Español | Nativo | |
+| Inglés | B2 | Conversacional y técnico |
 
 ## Education
 
-| Degree | Period | Institution | Key Topics |
-|--------|--------|-------------|------------|
-| [DEGREE] | [YEARS] | [INSTITUTION] | [TOPICS] |
+| Degree | Period | Institution |
+|--------|--------|-------------|
+| Ingeniería en Sistemas Computacionales, en curso | Ago 2022 - Jun 2027 (previsto) | Instituto Tecnológico Nacional de México, Campus Costa Grande |
 
 ## Professional Experience
 
-### [JOB_TITLE] - [COMPANY] ([START] - [END])
-[LOCATION]
-- [RESPONSIBILITY_OR_ACHIEVEMENT_1]
-- [RESPONSIBILITY_OR_ACHIEVEMENT_2]
-- [RESPONSIBILITY_OR_ACHIEVEMENT_3]
+### Desarrollador Full-Stack, sistema algorítmico de clasificación arancelaria (Oct 2026)
 
-<!-- Add more roles as needed -->
+- Implementó búsqueda, clasificación y sugerencia de fracciones arancelarias y NICO para acero según composición química, producto y proceso de manufactura.
+- Automatizó la extracción y clasificación de certificados de molino en PDF mediante carga directa. Integró modelos locales en Ollama para apoyar la extracción desde formatos no conocidos.
+- Desarrolló el historial de certificados y la exportación a Excel. Planteó una arquitectura multiusuario de escritorio para operación local sin conexión.
+- Tecnologías: Python, FastAPI, PostgreSQL, React, Next.js, Vite y Ollama.
 
 ## Independent Projects
-<!-- Projects outside of employment: freelance, open source, personal -->
-- **[PROJECT_NAME]**: [DESCRIPTION]
+
+### ZIQUA, Lead Full-Stack & IoT Developer (Ene 2026 - Jun 2026)
+
+- Diseñó la arquitectura que conecta un sensor sumergido con ESP32, el backend y una aplicación en Flutter.
+- Implementó sincronización en tiempo real con Firebase para monitorear pH, temperatura y turbidez.
+- Desarrolló un módulo predictivo para mantenimiento preventivo. El CV reporta una reducción de hasta 30% en gasto de reactivos.
+- Desarrolló funciones de monitoreo, gestión del servicio y alertas para usuarios y prestadores de servicios.
+
+### SALL-E, Líder de Proyecto y Desarrollador Principal (Feb 2025 - Dic 2025)
+
+- Lideró el desarrollo técnico y la estrategia comercial del proyecto de movilidad eléctrica.
+- Desarrolló una aplicación en Flutter y Firebase con geolocalización GPS en vivo, diagnóstico de carga de batería, historial de mantenimiento y facturación.
+- Diseñó e implementó encendido y autenticación vehicular con tarjetas NFC encriptadas.
+- El proyecto obtuvo el primer lugar regional de InnovaTecNM 2025 y llegó a la final nacional.
 
 ## Technical Skills
 
-### Programming & ML
-- **[LANGUAGE]** ([PROFICIENCY]): [FRAMEWORKS_AND_LIBRARIES]
-- [OTHER_SKILLS]
-
-### Domain Expertise
-- [DOMAIN_1]
-- [DOMAIN_2]
-
-### Software & Tools
-- [TOOL_LIST]
-
-## Publications
-<!-- List peer-reviewed publications, if any -->
-1. [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL]. [DOI_LINK]
+- **Backend y datos:** Python, FastAPI, Java, Spring Boot, Node.js, Express, PostgreSQL, MySQL, MongoDB, Supabase, Firebase Realtime Database, APIs REST y WebSockets.
+- **Web y móvil:** Dart, Flutter, JavaScript, TypeScript, React, Next.js, Vite y JavaFX.
+- **Automatización e IoT:** procesamiento de PDF con modelos locales en Ollama, ESP32, NFC y monitoreo en tiempo real.
+- **Herramientas:** Git, GitHub, Docker, Postman, Linux y Bash.
 
 ## Awards
-- [AWARD] - [EVENT] ([YEAR])
 
-## References
-- [NAME], [TITLE], [COMPANY] ([EMAIL], [PHONE])
+- Primer lugar regional (Región 3), InnovaTecNM 2025 (Jun 2025).
+- Finalista nacional, InnovaTecNM 2025 (Nov 2025).
+- Tercer lugar regional, Hackatec 2026.
 
-More references available upon request.
+## Publications and References
+
+Pendientes de confirmar.

@@ -12,69 +12,28 @@ The `site:` query templates in this file are the **WebSearch fallback** — for 
 
 ## Search Sites
 
-Primary (your market's job boards - scaffold one with `/add-portal`):
-- **[YOUR_JOB_BOARD]** - your market's largest general job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY]); also covered by `linkedin-search` CLI
-- **[YOUR_INDUSTRY_JOB_BOARD]** - a niche/industry board for your field (optional)
-- **[YOUR_ADDITIONAL_JOB_BOARD]** - another major board for your market (optional)
-
-Secondary (company career pages via Google):
-- Direct Google searches with `site:` filters for known target companies
+LinkedIn y FreeHire para las consultas iniciales. Consultar las páginas de empleo de las empresas como respaldo.
 
 ## Query Categories
 
-Queries are grouped by priority. Write **each category in every language from your Languages table** (see Language scope above). Combine each query with your location terms (e.g. your city, region, or metro area) where the site supports it.
+Selección provisional basada en la experiencia del CV. La prioridad inmediata es preparar una vacante concreta cuando Carlos comparta sus datos.
 
-**Organize by function, not job title.** The same underlying work carries different titles across companies and markets (a "Data Scientist" role at one employer may be posted as "Insights Analyst" or "Data Consultant" at another). Name each priority category after the function it covers, and list several plausible job titles as query variants within that category rather than betting an entire priority tier on one exact title string.
+| Prioridad | Español | Inglés | Términos técnicos |
+|-----------|---------|--------|-------------------|
+| 1 | Desarrollador full-stack, Desarrollador backend | Full Stack Developer, Backend Developer | Python, FastAPI, Spring Boot, PostgreSQL |
+| 2 | Desarrollador móvil, Desarrollador Flutter | Mobile Developer, Flutter Developer | Flutter, Dart, Firebase |
+| 3 | Desarrollador IoT | IoT Developer | ESP32, Firebase, WebSockets |
+| 4 | Ingeniero de software junior | Junior Software Engineer | REST APIs, TypeScript, Docker |
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
-
-These match your strongest and most desired career direction.
-
-```
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_2]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_COUNTRY]
-```
-
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
-
-These match your domain expertise.
-
-```
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
-```
-
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
-
-Adjacent roles you could pivot into.
-
-```
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
-```
-
-### Priority 4: Broader Technical / Consulting
-
-Wider net for general technical roles.
-
-```
-site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
-```
+Para búsquedas web de respaldo, combinar cada título con `remoto México` o `remote Mexico` y uno de los términos técnicos.
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+- Ideal: 100% remoto con contratación elegible desde México.
+- Confirmar antes de clasificar: remoto sin países elegibles claros o con visitas presenciales ocasionales.
+- Las vacantes híbridas o presenciales quedan fuera de la búsqueda general.
+- Tiempo completo, sin restricción de horario declarada.
+- Expectativa mínima: 25,000 MXN. Confirmar periodicidad y base bruta o neta antes de comparar.
 
 ## Language Filter
 

@@ -59,7 +59,7 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Carlos Jadir Ocampo de la Torre - CV},
     % Keep pdfpagemode=UseNone: this block runs after moderncv's own
     % \AtEndPreamble (moderncv.cls sets pdfpagemode there), so a FullScreen
     % value here would win and open every CV in fullscreen presentation mode.
@@ -69,13 +69,13 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
 \usepackage{import}
 
 % Personal data
-\name{[FIRST_NAME]}{[LAST_NAME]}
+\name{Carlos Jadir}{Ocampo de la Torre}
 % If you have no address to list, DELETE this whole line. \address{}{}{} fails
 % with "There's no line here to end" on every moderncv version.
-\address{[YOUR_ADDRESS]}{}{}
-\phone[mobile]{[YOUR_PHONE]}
-\email{[YOUR_EMAIL]}
-\extrainfo{\href{[YOUR_LINKEDIN_URL]}{LinkedIn}, \href{[YOUR_GITHUB_URL]}{GitHub}}
+\address{Zihuatanejo, Guerrero, México}{}{}
+\phone[mobile]{+52 7443260318}
+\email{cjocampo27@outlook.com}
+\extrainfo{\href{https://www.linkedin.com/in/carlos-ocampo-510918253}{LinkedIn}, \href{https://github.com/Carlex27}{GitHub}}
 
 \begin{document}
 \makecvtitle
@@ -137,11 +137,11 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 **Create 2-3 profile statement templates for your main role types:**
 
 <!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Full-Stack y Backend roles:**
+> Desarrollador full-stack con experiencia en APIs con FastAPI, PostgreSQL y automatización de documentos. Implementé búsqueda y clasificación de fracciones arancelarias de acero e integré modelos locales para extraer datos de certificados PDF.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Flutter y desarrollo móvil roles:**
+> Desarrollador móvil con experiencia en Flutter y Firebase. Construí aplicaciones que conectan telemetría, alertas y funciones de servicio con dispositivos ESP32, GPS y NFC.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 

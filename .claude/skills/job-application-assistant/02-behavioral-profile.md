@@ -8,47 +8,35 @@ framework_version: 1.0.0
 <!-- You can use results from PI, DISC, Myers-Briggs, StrengthsFinder, or a self-assessment -->
 
 ## Overview
-[YOUR_NAME]'s behavioral assessment identifies them as a **[PROFILE_TYPE]** pattern. [1-2 SENTENCE_SUMMARY].
+
+Perfil basado en los proyectos descritos en el CV. Evaluación conductual por confirmar.
 
 ## Core Behavioral Drives
 
-| Drive | Level | Meaning |
-|-------|-------|---------|
-| [DRIVE_1] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_2] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_3] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_4] | [LEVEL] | [DESCRIPTION] |
+Por confirmar mediante entrevista o autoevaluación.
 
 ## Strongest Behaviors
-- **[BEHAVIOR_1]:** [DESCRIPTION]
-- **[BEHAVIOR_2]:** [DESCRIPTION]
-- **[BEHAVIOR_3]:** [DESCRIPTION]
+
+- Lideró el desarrollo técnico y la estrategia comercial de SALL-E, proyecto que ganó la etapa regional de InnovaTecNM 2025.
+- Diseñó integraciones de extremo a extremo en ZIQUA, desde el nodo sensor hasta la aplicación móvil.
+- Desarrolló automatización de captura y procesamiento de certificados en el sistema de clasificación arancelaria.
 
 ## How You Work Best
-- [ENVIRONMENT_PREFERENCE_1]
-- [ENVIRONMENT_PREFERENCE_2]
-- [ENVIRONMENT_PREFERENCE_3]
+
+Busca empleo remoto de tiempo completo, sin restricciones de horario declaradas. Estilo de colaboración y entorno de equipo por confirmar.
 
 ## Growth Areas (frame positively in applications)
-- **[AREA_1]:** [HOW_TO_FRAME_IT_POSITIVELY]
-- **[AREA_2]:** [HOW_TO_FRAME_IT_POSITIVELY]
+
+Por confirmar.
 
 ## Mapping to Job Posting Language
 
-When a job posting mentions these keywords, it's a **strong behavioral fit**:
-- [KEYWORD_OR_PHRASE_THAT_MATCHES_YOUR_STYLE]
-- [ANOTHER_KEYWORD]
-
-When a job posting mentions these, flag as **potential friction** (not deal-breaker):
-- [KEYWORD_OR_PHRASE_THAT_MIGHT_CLASH]
-- [ANOTHER_KEYWORD]
+Relacionar los requisitos de liderazgo técnico e integración de sistemas con la evidencia de los proyectos. Confirmar las preferencias de cultura y colaboración al evaluar una vacante.
 
 ## Management Style Preferences
-- [WHAT_MANAGEMENT_STYLE_WORKS_FOR_YOU]
-- [WHAT_DOESN'T_WORK]
+
+Por confirmar.
 
 ## Using This in Applications
-- **Cover letters:** [HOW_TO_WEAVE_IN_BEHAVIORAL_STRENGTHS]
-- **CV:** [WHAT_TO_EMPHASIZE]
-- **Interviews:** [WHAT_STAR_EXAMPLES_TO_USE]
-- **Don't overstate:** [WHAT_NOT_TO_CLAIM]
+
+Sustentar liderazgo técnico, integración de sistemas y resolución de problemas con ejemplos de proyectos. Para entrevistas, usar los casos de `07-interview-prep.md`.
